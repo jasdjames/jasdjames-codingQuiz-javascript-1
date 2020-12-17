@@ -1,0 +1,34 @@
+body {
+    background-color: #0FA3B1;
+    color: #D9E5D6;
+
+ }
+
+ .btn-primary:hover {
+     color:#D9E5D6;
+     background-color:#F7A072;
+     border-color:#0FA3B1;    
+ }
+
+.btn-primary {
+    color:#D9E5D6;
+    background-color:#0FA3B1;
+    border-color:#0FA3B1;
+}
+.btn-outline-primary {
+    color:#F7A072;
+    border-color:#EDDEA4;
+
+}
+.btn-outline-primary:hover {
+    color: #D9E5D6;
+    background-color: #F7A072;
+    border-color:#FF9B42;
+}
+
+.card {
+    background-color: #F7A072;
+}
+.card-body{
+    background-color:#0FA3B1;
+}
