@@ -6,6 +6,7 @@ var question3
 var question4
 var question5
 var directions
+var timerEl
 
 
 
@@ -35,9 +36,35 @@ startQuiz.style.display = "none";
 
 }
 
-if (
+// function showQ2() {
+//  question2= document.getElementById("q2")   
+//    question1 = document.getElementById("q1");
+//    question2.style.display ="block";
+//    question1.style.display = "none";
+   
+//    }
 
-    
-)
-    
-  
+
+//    function showQ1() {
+//     startQuiz= document.getElementById("startClick")   
+//    question1 = document.getElementById("q1");
+//    question3.style.display ="block";
+//    question2.style.display = "none";
+   
+//    }
+
+//    function showQ1() {
+//     startQuiz= document.getElementById("startClick")   
+//    question1 = document.getElementById("q1");
+//    question1.style.display ="block";
+//    startQuiz.style.display = "none";
+   
+//    }
+
+//    function showQ1() {
+//     startQuiz= document.getElementById("startClick")   
+//    question1 = document.getElementById("q1");
+//    question1.style.display ="block";
+//    startQuiz.style.display = "none";
+   
+//    }

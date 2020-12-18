@@ -4,6 +4,12 @@ body {
 
  }
 
+ header{
+   margin: 2rem;
+     padding: 2.5rem;
+ }
+
+
  .btn-primary:hover {
      color:#D9E5D6;
      background-color:#F7A072;
@@ -32,7 +38,10 @@ body {
 .card-body{
     background-color:#0FA3B1;
 }
+.time{
+    padding:2rem;
 
+}
 #q1 {
     display: none;
 }
@@ -57,4 +66,8 @@ body {
     display:none;
 } 
 
+
+#timer {
+    font-size: x-large;
+}
 
