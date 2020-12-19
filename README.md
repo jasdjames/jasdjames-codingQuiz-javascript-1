@@ -12,3 +12,7 @@ Span id - Again after start game - ?/?
 
 Colorsplosion Timer - Activity (Helpful)
 
+
+https://stackoverflow.com/questions/1947263/using-an-html-button-to-call-a-javascript-function -call onclick to function 
+
+https://stackoverflow.com/questions/3910736/how-to-call-multiple-javascript-functions-in-onclick-event - Do multiple things - one on click
