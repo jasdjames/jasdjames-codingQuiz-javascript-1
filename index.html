@@ -7,109 +7,123 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
-   
-        <title>Coding Quiz</title>
+
+    <title>Coding Quiz</title>
 </head>
 
 <body>
 
     <header id="header">
-        <h1 class="display-1 text-center" >Coding Quiz</h1>
-            <h2 class="time float-right" id="timer"></h2>
-        <button type="button" class="btn btn-primary btn-lg btn-block" id="startClick" onclick="showQ1(); gameTime();"> Start Quiz</button>
+        <h1 class="display-1 text-center">Coding Quiz</h1>
+        <h2 class="time float-right" id="timer"></h2>
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="startClick" onclick="showQ1(); gameTime();">
+            Start Quiz</button>
 
     </header>
- 
-     <section class="card" id="q1">
-        <p class="display-2 text-center"> Question 1 </p>
-        <div class=" card-body text-center"> 
-            <p> What is the ---- that -----? </p> 
-        <div class="d-flex flex-column bd-highlight mb-3" id="buttonsQ1" onclick="showQ2();" >
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center" id="btn1-1" value="3" >Answer 1</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center" id="btn1-2" value="1">Answer 2</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center" id="btn1-3" value="2" data-correct="true"> Answer3 </button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center" id="btn1-4" value="4">Answer 4</button>
-       </div> 
-    </div>     
 
-    
+    <section class="card" id="q1">
+        <p class="display-2 text-center"> Question 1 </p>
+        <div class=" card-body text-center">
+            <p> What is the ---- that -----? </p>
+            <div class="d-flex flex-column bd-highlight mb-3" id="buttonsQ1" onclick="showQ2();">
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center" id="btn1-1"
+                    value="3">Answer 1</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center" id="btn1-2"
+                    value="1">Answer 2</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center" id="btn1-3"
+                    value="2" data-correct="true"> Answer3 </button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center" id="btn1-4"
+                    value="4">Answer 4</button>
+            </div>
+        </div>
+
+
     </section>
     <section class="card" id="q2">
-        
-         <h2 class="display-2 text-center"> Question 2 </h2>
-        <div class="card-body text-center"> 
+
+        <h2 class="display-2 text-center"> Question 2 </h2>
+        <div class="card-body text-center">
             <p> is the ---- that -----? </p>
-        <div class="d-flex flex-column bd-highlight mb-3" onclick="showQ3();">
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 1</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 2</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer3 </button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center" data-correct="true">Answer 4</button>
+            <div class="d-flex flex-column bd-highlight mb-3" onclick="showQ3();">
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 1</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 2</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer3 </button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center"
+                    data-correct="true">Answer 4</button>
+            </div>
         </div>
-        </div>  
-        
-        
+
+
 
     </section>
     <section class="card" id="q3">
         <h2 class="display-2 text-center"> Question 3 </h2>
-        <div class="card-body text-center"> 
+        <div class="card-body text-center">
             <p>>What is the ---- that -----? </p>
-        <div class="d-flex flex-column bd-highlight mb-3 " onclick="showQ4();">
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center" >Answer 1</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center" value="1" data-correct = "true">Answer 2</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer3 </button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 4</button>
+            <div class="d-flex flex-column bd-highlight mb-3 " onclick="showQ4();">
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 1</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center" value="1"
+                    data-correct="true">Answer 2</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer3 </button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 4</button>
+            </div>
         </div>
-        </div>    
     </section>
     <section class="card" id="q4">
         <h2 class="display-2 text-center"> Question 4 </h2>
-        <div class="card-body text-center"> 
-           <p> What is the ---- that -----? </p>
-        <div class="d-flex flex-column bd-highlight mb-3" onclick="showQ5();">
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 1</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 2</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center" value="1" data-correct = "true">Answer3 </button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 4</button>
+        <div class="card-body text-center">
+            <p> What is the ---- that -----? </p>
+            <div class="d-flex flex-column bd-highlight mb-3" onclick="showQ5();">
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 1</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 2</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center" value="1"
+                    data-correct="true">Answer3 </button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 4</button>
+            </div>
         </div>
-        </div>    
     </section>
     <section class="card" id="q5">
         <h2 class="display-2 text-center"> Question 5 </h2>
-        <div class="card-body text-center"> 
+        <div class="card-body text-center">
             <p>What is the ---- that -----? </p>
-        <div class="d-flex flex-column bd-highlight mb-3" onclick="showScore();">
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 1</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center " value="1" data-correct="true">Answer 2</button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer3 </button>
-            <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 4</button>
+            <div class="d-flex flex-column bd-highlight mb-3" onclick="showScore();">
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 1</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center " value="1"
+                    data-correct="true">Answer 2</button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer3 </button>
+                <button type="button" class="btn btn-outline-primary d-flex justify-content-center">Answer 4</button>
+            </div>
         </div>
-        </div>    
     </section>
 
     <form>
-        <div id="page2" class="card d-none">
+        <div id="page2"  class="card d-none">
             <div class="card-header">
                 <h5 class="card-title">Score Sheet</h5>
             </div>
-            <div class="card-body">
+            <div class="card-body" id="page3" >
                 <div id="score">
+                    <h6 id="pastScore">Past scores</h6>
+                        <p id="oldScoreHere"></p>
                     <div class="form-row">
-                        <label for="Initials">
-                            Initials 
+                        <label for="initials">
+                            Initials
                         </label>
-                        <input type="text" id="name" name="name" class="form-control"/>
+                        <input type="text" id="initials" name="initials" class="form-control"/>
                     </div>
                     <div class="form-row">
                         <label for="score">
                             Score
                         </label>
-                        <input type="text" id="score" name="score" class="form-control"/>
+                        <input type="text" id="score" name="score"  class="form-control" />
+                    </div>
+                    <div class="card-footer text-right">
+                        <button value="submit" id="form-submit" class="btn btn-outline-light">Submit</button>
                     </div>
                 </div>
             </div>
         </div>
-    </form>  
+    </form>
 
 
 

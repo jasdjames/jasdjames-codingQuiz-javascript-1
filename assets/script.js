@@ -10,15 +10,17 @@ var directions
 var timerEl = document.querySelector("#timer");
 var secondsLeft = 90
 var playerGuess
+var initials = document.getElementById("initials");
+var score = document.getElementById("score");
 // var correctAn = element.value="1";
 var timeTravel = document.querySelector(".btn-outline-primary").value
 var questions = document.querySelectorAll(".btn-outline-primary")
-var clickThruQ = ["clickQ2","clickQ3", "click4", "click5"];
+var clickThruQ = ["clickQ2", "clickQ3", "click4", "click5"];
 
 function showQ1() {
     question1.style.display = "block";
     startQuiz.style.display = "none";
-    
+
 }
 
 
@@ -30,60 +32,110 @@ function gameTime() {
         secondsLeft--;
         timerEl.textContent = `Timer: ${secondsLeft}`;
 
-//  addEventListener("click",questions) ) 
-//     secondsLeft += 10;
+        //  addEventListener("click",questions) ) 
+        //     secondsLeft += 10;
 
-// } else { 
-//     secondsLeft -= 10; 
-// }
-if (secondsLeft === 0) {
+        // } else { 
+        //     secondsLeft -= 10; 
+        // }
+        if (secondsLeft === 0) {
             clearInterval(timerInterval);
             console.log(secondsLeft);
         }
-    
-    },1000)
+
+    }, 1000)
     // Does not work but no errors
 
-if (timeTravel = 1){
-    timeTravel === true}
- if (timeTravel === false) {
-     questions.onclick = function addTime() {
-         secondsLeft -= 10;
-     }
- }
-// There is a loop that I could clean this up with
+    if (timeTravel = 1) {
+        timeTravel === true
+    }
+    if (timeTravel === false) {
+        questions.onclick = function addTime() {
+            secondsLeft -= 10;
+        }
+    }
+    // There is a loop that I could clean this up with
 
 }
-function showQ2 (event){
-   question1.style.display = "none";
-   question2.style.display = "block"; 
+function showQ2(event) {
+    question1.style.display = "none";
+    question2.style.display = "block";
 
 };
 
 
-function showQ3 (event){
+function showQ3(event) {
     question2.style.display = "none";
-    question3.style.display = "block"; 
- 
- };
+    question3.style.display = "block";
 
- function showQ4 (event){
+};
+
+function showQ4(event) {
     question3.style.display = "none";
-    question4.style.display = "block"; 
- 
- };
+    question4.style.display = "block";
 
- function showQ5 (event){
+};
+
+function showQ5(event) {
     question4.style.display = "none";
-    question5.style.display = "block"; 
- 
- };
+    question5.style.display = "block";
 
- function showScore (event) {
+};
+
+function showScore(event) {
     question5.style.display = "none";
     timerEl.style.display = "none";
     scoreSheet.classList.remove("d-none");
- }
+}
+
+
+var buttonSubmit = document.getElementById("form-submit");
+buttonSubmit.addEventListener("click", function (event) {
+    event.preventDefault();
+    if (buttonSubmit.value === "submit") {
+        
+
+
+        localStorage.setItem("initials", initials.value);
+        localStorage.setItem("score", score.value);
+
+        var page3 = document.getElementById("page3");
+        page3.innerHTML = `
+            <h2>Thank you for playing  ${localStorage.getItem("initials")} ! Your score of ${localStorage.getItem("score")} has been stored. Please play again!  </h2>`;
+        var playAgain = document.createElement("button");
+        playAgain.value = "play-again";
+        playAgain.textContent = "Play Again";
+        playAgain.style.margin = "2rem";
+        playAgain.classList.add("card-footer", "btn", "btn-outline-primary");
+        page3.appendChild(playAgain);
+        playAgain.addEventListener("click",function(event) {
+            
+            
+            
+            
+             
+        location.reload();
+
+
+
+            }
+            
+            
+            
+            )
+
+
+
+         
+
+
+
+    }
+
+
+});
+
+
 
 //  function addTime(){
 
