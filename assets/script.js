@@ -133,9 +133,9 @@ function showScore(event) {
 
 
 
-var viewScore = document.getElementById("oldScoreHere")
+// var viewScore = document.getElementById("oldScoreHere")
 
-viewScore.innerHTML = `<p> Your score is ${scoreNum} </p>`;
+// viewScore.innerHTML = `<p> Your score is ${scoreNum} </p>`;
 
 
 
@@ -147,11 +147,11 @@ buttonSubmit.addEventListener("click", function (event) {
 
 
         localStorage.setItem("initials", initials.value);
-        localStorage.setItem("points", finalScore.value);
+        localStorage.setItem("points", scoreNum);
 
         
         page3.innerHTML = `
-            <h2>Thank you for playing  ${localStorage.getItem("initials")} ! Your score of ${localStorage.getItem("score")} has been stored. Please play again!  </h2>`;
+            <h2>Thank you for playing  ${localStorage.getItem("initials")} ! Your score of ${localStorage.getItem("points")} has been stored. Please play again!  </h2>`;
         var playAgain = document.createElement("button");
         playAgain.value = "play-again";
         playAgain.textContent = "Play Again";
