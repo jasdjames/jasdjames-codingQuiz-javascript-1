@@ -6,16 +6,23 @@ The purpose of this project was to create a coding quiz using things that I have
 
 ## Installation
 
-This project is listed in the the GitHub repostitory at this is link [GitHub Repository] (https://github.com/jasdjames/jasdjames-password-generator-devlop-homework3) 
+This project is listed in the the GitHub repostitory at this is link [GitHub Repository]  (https://github.com/jasdjames/jasdjames-codingQuiz-javascript-1)
 
-This page has been deployed here [Page] (https://jasdjames.github.io/jasdjames-password-generator-devlop-homework3/) 
+This page has been deployed here [Page] (https://jasdjames.github.io/jasdjames-codingQuiz-javascript-1/)
 
 
 ## Usage 
 This quiz asks 5 coding based questions of the user. The quiz is timed. The quiz takes off 10 seconds if a question is missed. If time runs out the quiz jumps to the score page. The score is displayed and there is a place for the user to place their initials and the score. 
 
+![Question] (https://github.com/jasdjames/jasdjames-codingQuiz-javascript-1/blob/1f82bb3af18f955de815dd4dc9aef774654d1158/assets%2Fimages%2FqWithAlert.png "Question 5 with an alert") 
 
-Screenshots 
+![Scoresheet] (https://github.com/jasdjames/jasdjames-codingQuiz-javascript-1/blob/1f82bb3af18f955de815dd4dc9aef774654d1158/assets%2Fimages%2Fscoresheet.png)
+
+![LastPage] (https://github.com/jasdjames/jasdjames-codingQuiz-javascript-1/blob/main/assets%2Fimages%2FlastPage.png"Last Page") 
+
+
+
+
 
 
 ## Credits
