@@ -14,11 +14,11 @@ This page has been deployed here [Page] (https://jasdjames.github.io/jasdjames-c
 ## Usage 
 This quiz asks 5 coding based questions of the user. The quiz is timed. The quiz takes off 10 seconds if a question is missed. If time runs out the quiz jumps to the score page. The score is displayed and there is a place for the user to place their initials and the score. 
 
-![Question] (https://github.com/jasdjames/jasdjames-codingQuiz-javascript-1/blob/1f82bb3af18f955de815dd4dc9aef774654d1158/assets%2Fimages%2FqWithAlert.png "Question 5 with an alert") 
+![Question] (https://github.com/jasdjames/jasdjames-codingQuiz-javascript-1/blob/1f82bb3af18f955de815dd4dc9aef774654d1158/assets%2Fimages%2FqWithAlert.png)
 
 ![Scoresheet] (https://github.com/jasdjames/jasdjames-codingQuiz-javascript-1/blob/1f82bb3af18f955de815dd4dc9aef774654d1158/assets%2Fimages%2Fscoresheet.png)
 
-![LastPage] (https://github.com/jasdjames/jasdjames-codingQuiz-javascript-1/blob/main/assets%2Fimages%2FlastPage.png"Last Page") 
+![LastPage] (https://github.com/jasdjames/jasdjames-codingQuiz-javascript-1/blob/main/assets%2Fimages%2FlastPage.png)
 
 
 
