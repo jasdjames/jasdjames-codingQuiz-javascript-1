@@ -18,3 +18,7 @@ https://stackoverflow.com/questions/1947263/using-an-html-button-to-call-a-javas
 https://stackoverflow.com/questions/3910736/how-to-call-multiple-javascript-functions-in-onclick-event - Do multiple things - one on click
 
 https://stackoverflow.com/questions/47383288/how-do-i-change-a-button-size-in-javascript - Set css to button
+
+https://stackoverflow.com/questions/3425291/javascript-if-statement-looking-through-an-array - conditionals with arrays 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration - The loop was used from MDN 
