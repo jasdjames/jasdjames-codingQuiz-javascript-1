@@ -11,7 +11,7 @@ var timerEl = document.querySelector("#timer");
 var secondsLeft = 90
 var playerGuess
 var initials = document.getElementById("initials");
-var score = document.getElementById("score");
+var points = document.getElementById("score");
 var scoreNum = document.getElementById("scoreNum")
 // var correctAn = element.value="1";
 
